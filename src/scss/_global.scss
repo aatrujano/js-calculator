@@ -1,0 +1,39 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);    
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    box-sizing: inherit;
+  }
+  
+  a,
+  a:visited,
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
