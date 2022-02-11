@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.themeBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 28px;
+
+  &__logo{ 
+    font-size: 34px;
+    align-self: flex-end;
+  }
+
+  &__text{
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  &__themeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 71px;
+    cursor: pointer;
+    .numbers{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 9px;
+    }
+    .toggle{
+      width: 100%;
+      border-radius: 50px;
+      padding: 5px;
+      display: flex;
+      .selector {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
