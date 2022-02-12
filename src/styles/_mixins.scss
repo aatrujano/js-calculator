@@ -1,0 +1,9 @@
+$breakPointsDown: (
+    '580': 36.25rem
+);
+
+@mixin breakPointDown($size){
+    @media (max-width: map-get($breakPointsDown, $size)) {
+        @content
+    }
+};

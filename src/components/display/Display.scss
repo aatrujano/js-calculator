@@ -1,18 +1,22 @@
 @import '../../styles/variables';
 
 .display {
-    border-radius: 9px;
-    padding: 32px;
-    padding-top: 20px;
-    font-size: 54px;
-    text-align: end;
-    margin-bottom: 25px;
+  border-radius: 9px;
+  padding: 32px;
+  padding-top: 20px;
+  font-size: 54px;
+  text-align: end;
+  margin-bottom: 25px;
 }
 
 .savedDisplay {
-    font-size: 12px;
-    margin-bottom: 12px;
-    opacity: .5;
-    height: 14px;
+  font-size: 12px;
+  margin-bottom: 12px;
+  opacity: 0.5;
+  height: 14px;
 }
 
+.currentDisplay {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
